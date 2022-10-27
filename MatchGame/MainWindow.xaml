@@ -20,7 +20,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="textBlock" Grid.Column="0" Grid.Row="0" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="timeTextBlock" Grid.Column="0" Grid.Row="4" Text="Czas: " FontSize="36" MouseDown="timeTextBlock_MouseDown" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="4"/>
         <TextBlock x:Name="textBlock1" Grid.Column="0" Grid.Row="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" MouseDown="TextBlock1_MouseDown"/>
         <TextBlock x:Name="textBlock2" Grid.Column="0" Grid.Row="2" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" MouseDown="TextBlock2_MouseDown"/>
         <TextBlock x:Name="textBlock3" Grid.Column="0" Grid.Row="3" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" MouseDown="TextBlock3_MouseDown"/>
@@ -36,5 +36,6 @@
         <TextBlock x:Name="textBlock13" Grid.Column="3" Grid.Row="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" MouseDown="TextBlock13_MouseDown"/>
         <TextBlock x:Name="textBlock14" Grid.Column="3" Grid.Row="2" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" MouseDown="TextBlock14_MouseDown"/>
         <TextBlock x:Name="textBlock15" Grid.Column="3" Grid.Row="3" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" MouseDown="TextBlock15_MouseDown"/>
+        <TextBlock x:Name="textBlock0" Grid.Row="0" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" MouseDown="TextBlock4_MouseDown" Margin="38,10"/>
     </Grid>
 </Window>
